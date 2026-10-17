@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PVO — application personnelle</title>
+  <meta name="description" content="PVO est une application web personnelle, utilisée par une seule personne, qui réunit sa messagerie, son agenda et ses notes.">
+  <style>
+    :root { color-scheme: light dark; --texte: #1f2937; --gris: #6b7280; --fond: #ffffff; --lien: #2563eb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --texte: #e5e7eb; --gris: #9ca3af; --fond: #111827; --lien: #93c5fd; }
+    }
+    body { margin: 0; background: var(--fond); color: var(--texte);
+           font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
+    h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+    .sous-titre { color: var(--gris); margin: 0 0 2rem; }
+    h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+    a { color: var(--lien); }
+    footer { margin-top: 3rem; color: var(--gris); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>PVO</h1>
+    <p class="sous-titre">Une application web personnelle, utilisée par une seule personne.</p>
+
+    <h2>Ce que fait l'application</h2>
+    <p>
+      PVO est un outil d'organisation privé, hébergé sur un serveur personnel.
+      Il réunit au même endroit la messagerie, l'agenda, les tâches et les notes
+      de sa propriétaire, qui en est la seule utilisatrice.
+    </p>
+    <p>Avec l'accord explicite de la titulaire du compte Google, PVO peut :</p>
+    <ul>
+      <li><strong>Gmail</strong> : afficher les messages de sa boîte, signaler un
+        message comme indésirable, tenir ses brouillons et envoyer les messages
+        qu'elle rédige ;</li>
+      <li><strong>Google Agenda</strong> : lire ses agendas, une fois, pour les
+        importer (lecture seule).</li>
+    </ul>
+
+    <h2>Qui peut l'utiliser</h2>
+    <p>
+      Personne d'autre. L'application n'est ni publique, ni commerciale : elle
+      n'accepte pas d'inscriptions, et son accès est protégé par une phrase
+      secrète connue de sa seule propriétaire.
+    </p>
+
+    <h2>Vos données</h2>
+    <p>
+      La façon dont PVO utilise et protège les données issues des services
+      Google est décrite dans les
+      <a href="privacy.html">règles de confidentialité</a>.
+    </p>
+
+    <footer>
+      <a href="privacy.html">Règles de confidentialité</a>
+    </footer>
+  </main>
+</body>
+</html>

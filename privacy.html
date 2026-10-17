@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PVO — règles de confidentialité</title>
+  <meta name="description" content="Règles de confidentialité de PVO, application web personnelle.">
+  <style>
+    :root { color-scheme: light dark; --texte: #1f2937; --gris: #6b7280; --fond: #ffffff; --lien: #2563eb; }
+    @media (prefers-color-scheme: dark) {
+      :root { --texte: #e5e7eb; --gris: #9ca3af; --fond: #111827; --lien: #93c5fd; }
+    }
+    body { margin: 0; background: var(--fond); color: var(--texte);
+           font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 42rem; margin: 0 auto; padding: 3rem 1rem; }
+    h1 { font-size: 1.6rem; margin: 0 0 .25rem; }
+    .sous-titre { color: var(--gris); margin: 0 0 2rem; }
+    h2 { font-size: 1.1rem; margin: 2rem 0 .5rem; }
+    a { color: var(--lien); }
+    footer { margin-top: 3rem; color: var(--gris); font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Règles de confidentialité</h1>
+    <p class="sous-titre">PVO · dernière mise à jour : 17 octobre 2026</p>
+
+    <p>
+      PVO est une application web personnelle, hébergée sur un serveur privé et
+      utilisée par une seule personne, sa propriétaire. Ces règles décrivent ce
+      que l'application fait des données qu'elle reçoit des services Google.
+    </p>
+
+    <h2>Données consultées</h2>
+    <ul>
+      <li><strong>Gmail</strong> (autorisation <code>gmail.modify</code>) : les
+        messages, leurs pièces jointes et les brouillons de la boîte, pour les
+        afficher ; le libellé « Spam », pour signaler un indésirable ; l'envoi des
+        messages rédigés dans l'application.</li>
+      <li><strong>Google Agenda</strong> (autorisation
+        <code>calendar.readonly</code>) : les agendas et leurs évènements, en
+        lecture seule, pour les importer.</li>
+    </ul>
+    <p>Aucune autre donnée du compte Google n'est demandée.</p>
+
+    <h2>Utilisation</h2>
+    <p>
+      Ces données servent uniquement à faire fonctionner l'application pour sa
+      propriétaire : lire et classer son courrier, envoyer ses messages,
+      consulter son agenda. Elles ne sont <strong>ni vendues, ni partagées, ni
+      transmises à des tiers</strong>, et ne servent ni à la publicité, ni à
+      l'entraînement de modèles d'intelligence artificielle. Aucune personne
+      autre que la propriétaire n'y a accès.
+    </p>
+    <p>
+      L'utilisation et le transfert vers toute autre application, par PVO, des
+      informations reçues des API Google respectent les
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Règles
+      relatives aux données utilisateur des services d'API Google</a>, y compris
+      les exigences d'utilisation limitée.
+    </p>
+
+    <h2>Conservation et sécurité</h2>
+    <p>
+      Les données sont conservées sur le serveur personnel de la propriétaire,
+      derrière une phrase secrète. Les jetons d'accès fournis par Google y sont
+      enregistrés chiffrés. Les données restent tant que la propriétaire les
+      garde ; elle peut les supprimer à tout moment.
+    </p>
+
+    <h2>Retirer l'accès</h2>
+    <p>
+      L'accès accordé à PVO peut être retiré à tout moment depuis la page
+      <a href="https://myaccount.google.com/connections">Applications et services
+      tiers</a> du compte Google. L'application cesse alors immédiatement de
+      recevoir des données.
+    </p>
+
+    <h2>Contact</h2>
+    <p>Pour toute question : ADRESSE_DE_CONTACT</p>
+
+    <footer>
+      <a href="./">Retour à l'accueil</a>
+    </footer>
+  </main>
+</body>
+</html>
